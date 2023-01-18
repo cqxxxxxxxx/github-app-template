@@ -1,4 +1,22 @@
 {
-  "id": "11",
-  "name": "cqx"
+  "version": "1.9",
+  "apiMetadata": {
+    "displayName": "test",
+    "description": "test"
+  },
+  "apiProduct": {
+    "approvalType": "auto",
+    "scopes": [
+      "read"
+    ],
+    "proxies": [
+      "test"
+    ],
+    "quota": 1000,
+    "quotaInterval": 1000,
+    "quotaTimeUnit": "hour",
+    "environments": ["test"]
+  },
+  "apiProxy": {
+  }
 }
